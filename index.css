@@ -6,6 +6,7 @@ html{
    scroll-behavior: smooth;
 }
 
+
 body{
    font-family: 'Roboto', sans-serif;
    margin: 0;
@@ -141,7 +142,7 @@ header a:hover{
        rgba(0,0,0,0.5),
        rgba(0,0,0,0.5)
    )
-   ,url("");
+   ,url("media/horario.jpg");
 
 }
 
@@ -151,7 +152,7 @@ header a:hover{
        rgba(0,0,0,0.5),
        rgba(0,0,0,0.5)
    )
-   ,url("");
+   ,url("media/auto.jpg");
 }
 
 .carta:nth-child(3){
@@ -160,7 +161,7 @@ header a:hover{
        rgba(0,0,0,0.5),
        rgba(0,0,0,0.5)
    )
-   ,url("");
+   ,url("media/email.jpg");
 
 }
 
@@ -231,32 +232,7 @@ footer .container{
        font-size: 5em;
    }
 
-   #it .container{
-       display: flex;
-       justify-content: space-evenly;
-   }
-
-   #it .texto{
-       width: 50%;
-       max-width: 600px;
-       text-align: initial;
-       padding-left: 30px;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-   }
-
-   #it h2{
-       margin-top: 0px;
-   }
-
-   #it .img-container{
-       background-image: url("");
-       background-size: cover;
-       background-position: center center;
-       height: 500px;
-       width: 400px; 
-   }
+  
 
    #nuestros-programas .programas{
        display: flex;
@@ -285,42 +261,7 @@ footer .container{
        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
    }
 
-   .carta:first-child{
-       background-image: linear-gradient(
-           0deg,
-           rgba(0,0,0,0.5),
-           rgba(0,0,0,0.5)
-       )
-       ,url("media/");
-
-   }
-
-   .carta:nth-child(2){
-       background-image: linear-gradient(
-           0deg,
-           rgba(0,0,0,0.5),
-           rgba(0,0,0,0.5)
-       )
-       ,url("media/");
-   }
-
-   .carta:nth-child(3){
-       background-image: linear-gradient(
-           0deg,
-           rgba(0,0,0,0.5),
-           rgba(0,0,0,0.5)
-       )
-       ,url("");
-
-   }
-
-   #caracteristicas{
-       background-image: url("");
-       background-repeat: no-repeat;
-       background-size: 500px 400px;
-       background-position: calc(100vw - 500px) 120px;
-   }
-
+   
    #caracteristicas .container{
        text-align: initial;
    }
